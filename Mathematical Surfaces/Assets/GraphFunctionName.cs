@@ -4,5 +4,8 @@
     Sine2d,
     MultiSine,
     MultiSine2D,
-    Ripple
+    Ripple,
+    Cylinder,
+    Sphere,
+    Torus 
 }
