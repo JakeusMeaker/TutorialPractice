@@ -45,11 +45,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e55966d4cdefff84f8ea481d6d51b7e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curveRadius: 4
-  pipeRadius: 1
-  curveSegmentCount: 20
-  pipeSegmentCount: 10
-  ringDistance: 1
+  pipeRadius: 0.85
+  pipeSegmentCount: 16
+  ringDistance: 0.77
+  minCurveRadius: 4
+  maxCurveRadius: 20
+  minCurveSegmentCount: 4
+  maxcurveSegmentCount: 10
 --- !u!33 &8643926285701885135
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -75,7 +77,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c7c0dd42f4e543d40ab885c966a0fcf0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
