@@ -166,5 +166,13 @@ public class Pipe : MonoBehaviour
             return relativeRotation;
         }
     }
+
+    public int CurveSegmentCount
+    {
+        get
+        {
+            return curveSegmentCount;
+        }
+    }
     #endregion
 }
